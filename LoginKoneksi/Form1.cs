@@ -48,7 +48,7 @@ namespace LoginKoneksi
                         sandi = kolom["password"].ToString();
                         if (sandi == txtPassword.Text)
                         {
-                            Form2 frmMain = new Form2();
+                            regis frmMain = new regis();
                             frmMain.Show();
                         }
                         else
@@ -67,6 +67,11 @@ namespace LoginKoneksi
             {
                 MessageBox.Show(ex.ToString());
             }
+
+        }
+
+        private void txtPassword_TextChanged(object sender, EventArgs e)
+        {
 
         }
 
