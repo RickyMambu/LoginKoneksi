@@ -216,6 +216,12 @@ namespace LoginKoneksi
             this.Hide();
         }
 
+        private void button1_Click(object sender, EventArgs e)
+        {
+            FormPengguna formPengguna = new FormPengguna();
+            formPengguna.Show();
+        }
+
         private void regis_Load(object sender, EventArgs e)
         {
             try
